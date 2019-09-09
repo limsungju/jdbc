@@ -21,7 +21,7 @@ public class UpdateTest {
 		try {
 			// 1. JDBC Driver 로딩
 			Class.forName("org.mariadb.jdbc.Driver");
-
+			
 			// 2. 연결하기
 			String url = "jdbc:mariadb://192.168.1.84:3306/webdb?characterEncoding=utf8";
 			// url, db계정, db비밀번호
