@@ -102,7 +102,6 @@ public class ArtistDao {
 		} catch(ClassNotFoundException e) {
 			System.out.println("Fail to Loading Driver:" + e);
 		} 
-		
 		return connection;
 	}
 
