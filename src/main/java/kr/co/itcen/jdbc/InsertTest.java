@@ -14,7 +14,6 @@ public class InsertTest {
 	
 	public static Boolean insert(String name) {
 		Boolean result = false;
-		
 		Connection connection = null;
 		Statement stmt = null;
 
