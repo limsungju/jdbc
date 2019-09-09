@@ -12,7 +12,7 @@ public class InsertTest {
 		insert("경영지원팀3");
 	}
 	
-	public static boolean insert(String name) {
+	public static Boolean insert(String name) {
 		Boolean result = false;
 		
 		Connection connection = null;
