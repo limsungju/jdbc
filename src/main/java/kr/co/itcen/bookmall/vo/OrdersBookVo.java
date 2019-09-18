@@ -5,6 +5,25 @@ public class OrdersBookVo {
 	private Integer count;
 	private Long bookNo;
 	private Long ordersNo;
+	private String title;
+	private int price;
+	
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
 
 	public Long getNo() {
 		return no;
@@ -40,7 +59,10 @@ public class OrdersBookVo {
 
 	@Override
 	public String toString() {
-		return "OrdersBookVo [no=" + no + ", count=" + count + ", bookNo=" + bookNo + ", ordersNo=" + ordersNo + "]";
+		return "OrdersBookVo [no=" + no + ", count=" + count + ", bookNo=" + bookNo + ", ordersNo=" + ordersNo
+				+ ", title=" + title + ", price=" + price + "]";
 	}
+
+	
 
 }

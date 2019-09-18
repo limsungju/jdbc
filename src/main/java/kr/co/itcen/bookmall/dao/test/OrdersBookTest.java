@@ -20,7 +20,6 @@ public class OrdersBookTest {
 	}
 
 	private static void insertTest() {
-		// System.out.println("-----insert test-----");
 		OrdersBookDao ordersBookDao = new OrdersBookDao();
 
 		BookDao bookDao = new BookDao();

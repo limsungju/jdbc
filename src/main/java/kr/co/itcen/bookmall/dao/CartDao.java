@@ -90,8 +90,8 @@ public class CartDao {
 				String phone = rs.getString(4);
 				Long bookNo = rs.getLong(5);
 				String title = rs.getString(6);
-				Integer count = rs.getInt(7);
-				Integer price = rs.getInt(8);
+				Integer price = rs.getInt(7);
+				Integer count = rs.getInt(8);
 				Integer allprice = rs.getInt(9);
 				
 				List temp = new ArrayList();
@@ -102,11 +102,9 @@ public class CartDao {
 				temp.add(phone);
 				temp.add(bookNo);
 				temp.add(title);
-				temp.add(count);
 				temp.add(price);
+				temp.add(count);
 				temp.add(allprice);
-				
-				
 				
 				result.add(temp);
 				

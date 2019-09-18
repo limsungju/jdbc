@@ -10,7 +10,7 @@ public class UserDaoTest {
 	public static void main(String[] args) {
 		insertTest();
 		selectTest();
-		deleteAllTest();
+		//deleteAllTest();
 	}
 	
 	private static void deleteAllTest() {
